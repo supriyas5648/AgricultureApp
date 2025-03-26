@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B8D9A1"
+    android:backgroundTint="#D1EBBF"
+    tools:context=".governmentSchemesActivity">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/govn_schems"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#445935"
+        android:text="2. National Mission on Natural Farming (NMNF)
+
+Approved on November 25, 2024, the NMNF promotes sustainable agricultural practices with a total outlay of ₹2,481 crore. "
+        android:textColor="#EFDBDB"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#445935"
+        android:text="1. Pradhan Mantri Dhan-Dhaanya Krishi Yojana
+
+Announced in the 2025 Union Budget, this initiative aims to boost crop yields and enhance credit access, benefiting over 10 million farmers nationwide."
+        android:textColor="#EFDBDB"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#445935"
+        android:text="4. Pradhan Mantri Fasal Bima Yojana (PMFBY)
+
+Launched in 2016, PMFBY offers affordable crop insurance to farmers, covering risks from pre-sowing to post-harvest stages."
+        android:textColor="#EFDBDB"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="513dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#445935"
+        android:text="3. Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)
+
+This ongoing scheme provides income support of ₹6,000 per year to all landholding farmer families, distributed in three equal installments."
+        android:textColor="#EFDBDB"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sound_symbol"
+        tools:layout_editor_absoluteX="321dp"
+        tools:layout_editor_absoluteY="630dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
